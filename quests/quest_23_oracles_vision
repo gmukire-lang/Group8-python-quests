@@ -1,0 +1,8 @@
+def calculate_area(length, width):
+    return(length * width)
+
+area1 = calculate_area(5, 25)
+print(f"Area of area1 is {area1}")
+
+area2 = calculate_area(7, 21)
+print(f"Area of area2 is {area2}")
