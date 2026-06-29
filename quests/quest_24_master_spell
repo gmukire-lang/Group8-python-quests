@@ -1,0 +1,11 @@
+def ask_for_age():
+    age_input  input("Enter age: ")
+    return int(age_input)
+def can_they_vote(age):
+    if age >= 18:
+        print("Eligible to vote")
+    else:
+        years_left = 18 - age
+        print(f"Cannot vote You have {years_left} years left to wait")
+user_age = ask_for_age()
+can_they_vote(user_age)
